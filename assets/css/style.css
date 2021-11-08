@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -75,10 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   top: 20px;
 }
 #header .header-container {
-  background: #fff;
+  background: #2B1952;
 }
 #header.header-scrolled {
-  background: #fff;
+  background: #2B1952;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   top: 0;
 }
@@ -86,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
   background: #2B1952;
+
 }
 #header .logo h1 {
   font-size: 26px;
@@ -101,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 @media (max-width: 992px) {
   #header {
@@ -144,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  color: #36343a;
+  color: #fff;
   transition: 0.3s;
   font-size: 13px;
   font-weight: 500;
@@ -159,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #2B1952;
+  color: #8E8D91;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #2B1952;
@@ -183,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #291D52;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -199,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #2B1952;
+  color: #8E8D91;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
