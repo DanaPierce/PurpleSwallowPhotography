@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #00c28e;
+  background: #8E8D91;
   color: #fff;
 }
 .back-to-top.active {
@@ -253,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
@@ -761,7 +762,7 @@ section {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #00cc95;
+  color: #8E8D91;
 }
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
@@ -1075,7 +1076,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #00805d;
+  background: #8E8D91;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1121,7 +1122,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4f4c55;
+  color: #8E8D91;
   content: "/";
 }
 @media (max-width: 768px) {
@@ -1266,7 +1267,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #00805d;
+  background: #8E8D91;
   color: #fff;
   text-decoration: none;
 }
